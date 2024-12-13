@@ -1,0 +1,54 @@
+body {
+  font-family: Boogaloo, Delius;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+ background-image: url('Images/background.jpg');
+ background-size:cover;
+    color: #333;
+    
+}
+
+header, nav, section {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+nav a {
+  margin: 0 35px;
+  text-decoration: none;
+  color: #333;
+  align-content: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label, form input, form textarea {
+  margin-bottom: 2px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+/* Use Boogaloo for headings */
+h1, h2 {
+    font-family: 'Boogaloo', cursive;
+}
+
+/* Use Fira Sans for body text and other elements */
+body, p, a, ul, li {
+    font-family: 'Delius', cursive;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video</title>
+    <link rel="stylesheet" href="Style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <style>
+        /* Style for the navigation bar */
+        nav {
+            background-color: #dcc1e4; /* Green background */
+            padding: 11px 7px; /* Padding inside the nav */
+            border-radius: 20px; /* Rounded corners */
+            display: flex; /* Use flexbox to arrange the items */
+            justify-content: center; /* Center the links */
+            margin: 9px; /* Add some space around the nav */
+        }
+
+        nav a {
+            text-decoration: none; /* Remove underlines */
+            color: #010000; /* White text */
+            margin: 0 78px; /* Space between links */
+            font-family: Delius, cursive; /* Custom font */
+            font-weight: 500; /* Font weight */
+            transition: color 0.9s ease, transform 0.9s ease; /* Smooth transitions */
+        }
+
+        nav a:hover {
+            color: #3b00ff; /* Change color on hover */
+            transform: scale(1.1); /* Slight zoom effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Video</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Biodata.html">Biodata</a> 
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Comment.html">Comments</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Watch My Video</h2>
+            <video controls>
+                <source src="myvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+</body>
+</html>
